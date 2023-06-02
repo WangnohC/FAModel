@@ -1,0 +1,10 @@
+<div class="container">
+    <text class="title">
+        {{ $t('strings.main ability') }}
+    </text>
+    <text class="subtitle">
+        {{ title }}
+    </text>
+    <input class="btn" type="button" value="{{ $t('strings.jump to common event') }}" onclick="startCommonEvent"></input>
+    <input class="btn" type="button" value="{{ $t('strings.back to main page') }}" onclick="onclick"></input>
+</div>

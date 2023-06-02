@@ -1,0 +1,20 @@
+{
+  "strings": {
+    "main ability": "Main Ability",
+    "this is main page": "这是main页面",
+    "enter page ability test page": "进入page ability测试页面",
+    "this is page ability test page": "这是page ability测试页面",
+    "jump to page ability": "跳转至page ability",
+    "enter service ability test page": "进入service ability测试页面",
+    "this is service ability test page": "这是service ability测试页面",
+    "start service ability": "启动service ability",
+    "connect service ability": "连接service ability",
+    "disconnect service ability": "断开service ability",
+    "enter common event test page": "进入common event测试页面",
+    "this is common event test page": "这是common event测试页面",
+    "jump to common event": "跳转至common event",
+    "back to main page": "返回main页面"
+  },
+  "Files": {
+  }
+}

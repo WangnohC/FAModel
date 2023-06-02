@@ -1,0 +1,118 @@
+{
+  "app": {
+    "vendor": "example",
+    "bundleName": "com.oh.demo.featureability",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "mainAbility": ".MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "srcPath": "MainAbility",
+        "name": ".MainAbility",
+        "srcLanguage": "js",
+        "icon": "$media:icon",
+        "description": "$string:MainAbility_desc",
+        "formsEnabled": false,
+        "label": "$string:MainAbility_label",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "srcPath": "PageAbility",
+        "name": ".PageAbility",
+        "srcLanguage": "js",
+        "icon": "$media:icon",
+        "description": "$string:PageAbility_desc",
+        "formsEnabled": false,
+        "label": "$string:PageAbility_label",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "srcPath": "ServiceAbility",
+        "name": ".ServiceAbility",
+        "srcLanguage": "js",
+        "icon": "$media:icon",
+        "description": "$string:ServiceAbility_desc",
+        "type": "service"
+      },
+      {
+        "orientation": "unspecified",
+        "srcPath": "CommonEvent",
+        "name": ".CommonEvent",
+        "srcLanguage": "js",
+        "icon": "$media:icon",
+        "description": "$string:CommonEvent_desc",
+        "formsEnabled": false,
+        "label": "$string:CommonEvent_label",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "distro": {
+      "moduleType": "entry",
+      "installationFree": false,
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.example.entry",
+    "srcPath": "",
+    "name": ".entry",
+    "js": [
+      {
+        "pages": [
+          "pages/main/main",
+          "pages/page/page",
+          "pages/service/service",
+          "pages/commonevent/commonevent"
+        ],
+        "name": ".MainAbility",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": false
+        }
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": ".PageAbility",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": false
+        }
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": ".CommonEvent",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": false
+        }
+      }
+    ]
+  }
+}

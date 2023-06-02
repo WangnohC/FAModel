@@ -1,0 +1,10 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">
+        {{ $t('strings.page ability') }}
+    </text>
+    <text class="subtitle">
+        {{ title }}
+    </text>
+    <input class="btn" type="button" value="{{ $t('strings.napi test') }}" onclick="napiTest"></input>
+    <input class="btn" type="button" value="{{ $t('strings.back to main ability') }}" onclick="onclick"></input>
+</div>

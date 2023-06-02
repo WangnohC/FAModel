@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "PageAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PageAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "ServiceAbility_desc",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "CommonEvent_desc",
+      "value": "description"
+    },
+    {
+      "name": "CommonEvent_label",
+      "value": "label"
+    }
+  ]
+}

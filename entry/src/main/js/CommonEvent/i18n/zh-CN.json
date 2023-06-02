@@ -1,0 +1,11 @@
+{
+  "strings": {
+    "common event": "Common Event",
+    "this is common event page": "这是common event页",
+    "publish" : "发布公共事件",
+    "create subscriber": "创建订阅者",
+    "back to main ability": "返回main ability"
+  },
+  "Files": {
+  }
+}

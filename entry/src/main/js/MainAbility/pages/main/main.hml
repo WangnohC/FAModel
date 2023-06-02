@@ -1,0 +1,11 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">
+        {{ $t('strings.main ability') }}
+    </text>
+    <text class="subtitle">
+        {{ title }}
+    </text>
+    <input class="btn" type="button" value="{{ $t('strings.enter page ability test page') }}" onclick="enterPageAbilityTestPage"></input>
+    <input class="btn" type="button" value="{{ $t('strings.enter service ability test page') }}" onclick="enterServiceAbilityTestPage"></input>
+    <input class="btn" type="button" value="{{ $t('strings.enter common event test page') }}" onclick="enterCommonEventTestPage"></input>
+</div>

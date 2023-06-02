@@ -1,0 +1,12 @@
+<div class="container">
+    <text class="title">
+        {{ $t('strings.main ability') }}
+    </text>
+    <text class="subtitle">
+        {{ title }}
+    </text>
+    <input class="btn" type="button" value="{{ $t('strings.start service ability') }}" onclick="startServiceAbility"></input>
+    <input class="btn" type="button" value="{{ $t('strings.connect service ability') }}" onclick="connectServiceAbility"></input>
+    <input class="btn" type="button" value="{{ $t('strings.disconnect service ability') }}" onclick="disconnectServiceAbility"></input>
+    <input class="btn" type="button" value="{{ $t('strings.back to main page') }}" onclick="onclick"></input>
+</div>

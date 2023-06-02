@@ -1,0 +1,11 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">
+        {{ $t('strings.common event') }}
+    </text>
+    <text class="subtitle">
+        {{ title }}
+    </text>
+    <input class="btn" type="button" value="{{ $t('strings.create subscriber') }}" onclick="createSubscriber"></input>
+    <input class="btn" type="button" value="{{ $t('strings.publish') }}" onclick="publish"></input>
+    <input class="btn" type="button" value="{{ $t('strings.back to main ability') }}" onclick="onclick"></input>
+</div>
